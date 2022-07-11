@@ -1,12 +1,13 @@
 
 
-from setuptools import setup
+from setuptools import setup , find_packages
 
 setup(name='Package',
       version='0.1',
-      description='A pointless demonstration package',
+      description='A demonstration package',
       url='https://github.com/raulherale/M14Classwork',
-      author='R.C. Alvarado',
-      author_email='ontoligent@gmail.com',
+      author='Ashrith',
+      author_email='something@gmail.com',
       license='MIT',
-      packages=['demo'])
+      packages=find_packages()
+     )
